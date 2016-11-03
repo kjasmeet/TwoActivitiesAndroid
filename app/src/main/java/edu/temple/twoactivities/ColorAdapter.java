@@ -2,6 +2,7 @@ package edu.temple.twoactivities;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,9 +28,10 @@ public class ColorAdapter extends ArrayAdapter {
         View v;
         if(convertView == null){
             LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-            convertView = inflater.inflate(R.layout.activity_palette, parent, false);
+            convertView = inflater.inflate(R.layout.fragment_palette, parent, false);
 
             TextView textView = (TextView) convertView.findViewById(R.id.textColors);
+           // Log.i("String is ", " " +position);
             textView.setText(colorChoice[position]);
 
             if(position == 0){

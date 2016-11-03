@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TwoActivities</string>
+    <string-array name="myColorArray">
+        <item>ROJO</item>
+        <item>VERDE</item>
+        <item>AMARILLO</item>
+        <item>AZUL</item>
+        <item>GRIS</item>
+        <item>CIAN</item>
+    </string-array>
+</resources>
